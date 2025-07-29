@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { dispararSweetBasico } from '../assets/SweetAlert';
 import { agregarProducto } from '../assets/requests';
-import { useAuthContext } from '../context/Authcontext';
+import { useAuthContext } from '../context/AuthContext';
 import { Navigate } from 'react-router-dom';
 
 function FormularioProductoFirebase({ }) {
