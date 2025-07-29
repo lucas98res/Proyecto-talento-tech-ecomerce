@@ -3,7 +3,7 @@ import "../styles/Carrito.css"
 import CarritoCard from "./CarritoCard"
 import { Navigate } from "react-router-dom";
 import { CarritoContext } from "../context/CarritoContext.jsx"
-import { useAuthContext } from "../context/Authcontext.jsx"
+import { useAuthContext } from "../context/AuthContext.jsx"
 
 export default Carrito
 function Carrito() {
