@@ -1,0 +1,16 @@
+:root {
+  font-family: 'calibri';
+  line-height: 1.5;
+  font-weight: 500;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgb(2, 0, 36);
+  background: rgb(117, 133, 117);
+  background: linear-gradient(90deg, rgba(117, 133, 117, 1) 4%, rgba(41, 35, 35, 1) 12%, rgba(6, 41, 6, 1) 88%, rgba(21, 147, 23, 1) 96%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

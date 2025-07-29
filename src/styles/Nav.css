@@ -1,0 +1,11 @@
+.navbar {
+    font-size: 1.5vw;
+    padding: 2vw;
+    text-align: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(144, 120, 120, 0.4);
+    border-radius: 2vw;
+}

@@ -1,0 +1,46 @@
+.carrito-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+}
+
+.carrito-card {
+    border: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 224, 115);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    width: 90%;
+    text-align: center;
+    height: 100px;
+}
+
+.carrito-titulo {
+    width: 20%;
+}
+
+.descripcion-carrito {
+    width: 40%;
+}
+
+.boton-carrito {
+    width: 3%;
+    height: 30%;
+}
+
+.carrito-image {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#totalpaga {
+    background-color: rgb(174, 145, 110);
+    color: #000000;
+}

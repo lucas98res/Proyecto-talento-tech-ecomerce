@@ -1,0 +1,9 @@
+.p-4 {
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    gap: 1rem
+}
