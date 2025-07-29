@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import "../styles/ProductoDetalle.css";
 import { dispararSweetBasico } from "../assets/SweetAlert";
 import { CarritoContext } from "../context/CarritoContext";
-import { useAuthContext } from "../context/Authcontext";
+import { useAuthContext } from "../context/AuthContext";
 import { useProductosContext } from "../context/ProductosContext";
 import Producto from "./BotonCompra";
 import { Button } from "react-bootstrap";
