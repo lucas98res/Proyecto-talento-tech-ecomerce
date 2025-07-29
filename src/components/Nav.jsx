@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { CarritoContext } from '../context/CarritoContext';
 import { CarritoProvider } from '../context/CarritoContext';
 import { useAuthContext } from '../context/AuthContext';
-import "../styles/nav.css"
+import "../styles/Nav.css"
 
 function Navbar() {
     const { user, admin } = useAuthContext();
