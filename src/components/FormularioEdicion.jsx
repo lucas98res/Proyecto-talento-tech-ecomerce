@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useProductosContext } from "../context/ProductosContext";
-import { useAuthContext } from "../context/Authcontext";
+import { useAuthContext } from "../context/AuthContext";
 import { dispararSweetBasico } from "../assets/SweetAlert";
 
 function FormularioEdicion({ }) {
