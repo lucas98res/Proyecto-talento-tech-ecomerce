@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CarritoContext } from '../context/CarritoContext';
 import { CarritoProvider } from '../context/CarritoContext';
-import { useAuthContext } from '../context/Authcontext';
+import { useAuthContext } from '../context/AuthContext';
 import "../styles/nav.css"
 
 function Navbar() {
