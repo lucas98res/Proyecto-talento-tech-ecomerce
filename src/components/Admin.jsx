@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { useAuthContext } from "../context/Authcontext";
+import { useAuthContext } from "../context/AuthContext";
 import FormularioProductoFirebase from "./FormularioProductoFirebase";
 
 export default function Admin() {
